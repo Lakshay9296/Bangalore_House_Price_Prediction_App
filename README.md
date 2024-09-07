@@ -31,6 +31,8 @@ You can interact with the application by selecting a location, entering the area
 - **Libraries**:
   - `numpy` - For numerical operations.
   - `pandas` - For data handling.
+  - `matplotlib` - For creating visualizations.
+  - `sklearn` - For machine learning functions and model creation.
   - `streamlit` - For building the web app.
   - `streamlit-lottie` - For adding Lottie animations.
   - `pickle` - For loading the pre-trained model.

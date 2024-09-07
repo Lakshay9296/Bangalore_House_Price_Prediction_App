@@ -1,19 +1,43 @@
 # Bangalore House Price Prediction
 
-This is a web application that predicts house prices in Bangalore using a pre-trained machine learning model. The app is built with **Streamlit** and deployed to provide users with an interactive interface to estimate house prices based on various features like location, square footage, number of bedrooms (BHK), and number of bathrooms.
+This project provides a web application for predicting house prices in Bangalore using a pre-trained machine learning model. The application is built with **Streamlit** and offers an interactive interface for users to estimate house prices based on input features such as location, area, number of bedrooms (BHK), and number of bathrooms.
 
-## Features
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Model](#model)
+- [Demo](#demo)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
 
-- **Predicts house prices** based on the location, area, BHK, and number of bathrooms.
-- Provides a user-friendly interface to input the required parameters.
-- Integrated with Lottie animations for better user experience.
-- Displays the estimated house price in INR (₹) based on the user input.
+## Project Overview
+The purpose of this project is to create a web application that predicts house prices in Bangalore. The app uses a machine learning model to provide accurate price estimates based on various input parameters. Users can interact with the app to input data and receive predictions in real-time.
+
+## Model
+- The model used in this project is a **Linear Regression** model trained on a dataset of house prices in Bangalore.
+- The model predicts the price based on the following features:
+  - **Location**: The location of the house.
+  - **Area (sqft)**: Total square feet of the house.
+  - **BHK**: Number of bedrooms.
+  - **Bathrooms**: Number of bathrooms.
 
 ## Demo
+A live demo of the application can be found [here](https://housepricebangalore.streamlit.app/). 
 
-Check out the live demo of the app: [Bangalore House Price Prediction](https://streamlit-share-link)
+You can interact with the application by selecting a location, entering the area, number of bedrooms (BHK), and number of bathrooms. The app will provide an estimated price for the house based on your inputs.
 
+## Tech Stack
+- **Backend**: Python, Linear Regression model (with `pickle`)
+- **Frontend**: Streamlit
+- **Libraries**:
+  - `numpy` - For numerical operations.
+  - `pandas` - For data handling.
+  - `streamlit` - For building the web app.
+  - `streamlit-lottie` - For adding Lottie animations.
+  - `pickle` - For loading the pre-trained model.
+  - `json` - For handling the column data.
 
+## Project Structure
+```plaintext
 .
 ├── app.py                 # Main Streamlit app
 ├── bangalore_home_prices_model.pickle   # Pre-trained model

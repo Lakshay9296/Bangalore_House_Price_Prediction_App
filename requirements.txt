@@ -1,4 +1,4 @@
-numpy==1.23.5
-pandas==2.0.3
-streamlit==1.21.0
+numpy
+pandas
+streamlit
 streamlit-lottie

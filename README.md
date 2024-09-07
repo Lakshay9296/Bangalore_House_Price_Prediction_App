@@ -13,12 +13,14 @@ This project provides a web application for predicting house prices in Bangalore
 The purpose of this project is to create a web application that predicts house prices in Bangalore. The app uses a machine learning model to provide accurate price estimates based on various input parameters. Users can interact with the app to input data and receive predictions in real-time.
 
 ## Model
-- The model used in this project is a **Linear Regression** model trained on a dataset of house prices in Bangalore.
-- The model predicts the price based on the following features:
+- **Training**: The model was trained using a dataset obtained from Kaggle.
+- **Type**: The model is a **Linear Regression** model.
+- **Features**: 
   - **Location**: The location of the house.
   - **Area (sqft)**: Total square feet of the house.
   - **BHK**: Number of bedrooms.
   - **Bathrooms**: Number of bathrooms.
+- **Usage**: The trained model is used in the app to predict house prices based on user input.
 
 ## Demo
 A live demo of the application can be found [here](https://housepricebangalore.streamlit.app/). 
